@@ -6,7 +6,8 @@
  */
 // TODO Votre code ici.
 
-
+//setcookie("username", "Matthias");
+//echo $_COOKIE["username"];
 
 /**
  * 3. Commentez le code du point 1 et 2
@@ -14,3 +15,5 @@
  * 5. Créez une page bio.php et tentez d'afficher le cookie username sur cette page.
  */
 // TODO Votre code ici.
+
+setcookie("username", "Matthias", time()+3600*48+3600*2, "/", "localhost");
