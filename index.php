@@ -17,3 +17,6 @@
 // TODO Votre code ici.
 
 setcookie("username", "Matthias", time()+3600*48+3600*2, "/", "localhost");
+?>
+
+<a href="bio.php">Aller a bio.php</a>
